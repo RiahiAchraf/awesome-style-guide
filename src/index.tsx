@@ -10,10 +10,10 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
 /**
  * A custom Thing component. Neat!
  */
- export const Thing: FC<Props> = ({ children }) => {
+export const Thing: FC<Props> = ({ children }) => {
   return (
     // We are adding these classes here
-    <div className="mt-10 bg-yellow-100 p-5 rounded-md"> 
+    <div className="mt-10 bg-yellow-100 p-5 rounded-md">
       {children || `the snozzberries taste like snozzberries`}
     </div>
   );
